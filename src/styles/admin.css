@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #020617;
+}
+
+.login-box {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-box input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.login-box button {
+    background: #38dbf8;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.admin-container {
+    height: 100vh;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-header {
+    background: #020617;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header button {
+    background: crimson;
+    border: none;
+    padding: 8px 14px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.admin-main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.admin-list {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.project-item {
+    background: #020617;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-item p {
+    font-size: 0.9rem;
+    color: #cbd5f5;
+}
+
+.actions button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.actions button:first-child {
+    background: #38dbf8;
+}
+
+.actions .delete {
+    background: crimson;
+    color: white;
+}
+
+.admin-form {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-form input,
+.admin-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+
+.admin-form button {
+    background: #22c55e;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
